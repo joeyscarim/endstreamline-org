@@ -25,8 +25,8 @@ export const Jumbotron = ({
     >
       <div className="bg-gradient-to-br from-black to-gray-500 absolute inset-0 opacity-50" />
 
-      <div className="container px-4 flex gap-4 flex-col relative">
-        <h1 className="text-white text-6xl">{title}</h1>
+      <div className="container px-10  flex gap-4 flex-col relative">
+        <h1 className="text-white text-6xl ">{title}</h1>
         {paragraph && (
           <p className="text-white text-xl w-1/2 leading-9">{paragraph}</p>
         )}

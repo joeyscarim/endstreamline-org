@@ -21,8 +21,8 @@ const WhatIsOperationStreamline: NextPage = () => {
         backgroundImage="/images/resources-jumbotron.jpg"
       />
 
-      <section className="bg-white  px-4 py-24">
-        <div className="container mx-auto">
+      <section className="section-white">
+        <div className="section-container">
           <h2>Request a presentation</h2>
           <p>
             End Streamline members are available for presentations to groups if
@@ -34,9 +34,8 @@ const WhatIsOperationStreamline: NextPage = () => {
         </div>
       </section>
 
-      {/* make applys for these sections? section-white section-gray? */}
-      <section className="bg-gray-100 px-4 py-24">
-        <div className="container mx-auto">
+      <section className="section-gray">
+        <div className="section-container">
           <h2>Links to other organizations</h2>
           <div className="font-bold italic">Southern Arizona</div>
           <ul>
@@ -111,8 +110,8 @@ const WhatIsOperationStreamline: NextPage = () => {
         </div>
       </section>
 
-      <section className=" bg-white px-4 py-24">
-        <div className="container mx-auto">
+      <section className="section-white">
+        <div className="section-container">
           <h2>Reports Published by Other Organizations</h2>
 
           <ul>

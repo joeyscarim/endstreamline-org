@@ -17,30 +17,11 @@ const WhatIsOperationStreamline: NextPage = () => {
 
       <Jumbotron
         title="What You Can Do"
-        backgroundImage="/images/what-jumbotron.jpg"
+        backgroundImage="/images/you-jumbotron.jpg"
       />
 
-      {/* <section className="bg-white px-4 py-24">
-        <div className="container mx-auto flex">
-          <div className="w-1/2"></div>
-          <div className="w-1/2">
-            <h3>
-              Operation Streamline is an initiative of the Department of
-              Homeland Security and the Department of Justice launched in 2005
-              under a “zero-tolerance” policy to prosecute unauthorized
-              immigrants as criminals. Streamline courts were created to deliver
-              en masse fast-track criminal court proceedings. Streamline began
-              in Del Rio, Texas, on December 16, 2005 and expanded to every
-              border district except California. In 2018 new Trump
-              administration zero-tolerance prosecution policies resulted in a
-              new Streamline court in San Diego.
-            </h3>
-          </div>
-        </div>
-      </section> */}
-
-      <section className=" px-4 py-24">
-        <div className="container mx-auto w-1/3">
+      <section className="section-white">
+        <div className="section-container md:w-1/2">
           <h2>If you live in the Tucson area</h2>
           <p className="underline">
             Attend the Tucson Operation Streamline court.
@@ -68,36 +49,60 @@ const WhatIsOperationStreamline: NextPage = () => {
         </div>
       </section>
 
-      {/* make applys for these sections? section-white section-gray? */}
-      <section className="bg-white px-4 py-24">
-        <div className="container mx-auto">
-          <h2>What Happens in Streamline courts?</h2>
-          <p>
-            Streamline courts are criminal courts. Unlike most federal
-            prosecutions, judges condense the entire criminal proceeding
-            including initial appearance, plea and sentencing into a a few hours
-            on one day.
-          </p>
-          <ul>
-            <li>
-              First-time border crossers are charged with illegal entry which is
-              a criminal misdemeanor, punishable by up to 6 months in prison.
-            </li>
-            <li>
-              Those with prior removals are charged with illegal re-entry, which
-              is a criminal felony punishable by up to two years in prison.
-            </li>
-          </ul>
+      <section className="section-gray">
+        <div className="section-container flex flex-col md:flex-row">
+          <div className="flex-1">
+            <h2>If you live in another part of the U.S.</h2>
+            <ul>
+              <li>
+                Join with others in your area to oppose the criminal prosecution
+                of immigrants and separation of families through deportation. Be
+                sure to seek out immigrant-led organization and work under their
+                leadership.
+              </li>
 
-          <p>
-            Streamline defendants are shackled at the hands, waist, and feet,
-            although in Tucson shackles are removed before defendants enter the
-            courtroom. Depending on the court location, as many as 100
-            defendants enter the courtroom for a single en masse hearing lasting
-            two or three hours. All are advised of their charges, waive their
-            constitutional rights, plead guilty to entering at a place other
-            than a port of entry, and are sentenced.
-          </p>
+              <li>
+                Support national immigration justice organizations. [Link to
+                Resource page]
+              </li>
+
+              <li>
+                Visit a Federal Courthouse in your area to see these
+                prosecutions for yourself. Find your federal district court
+                here. [Link – http://www.uscourts.gov/court-locator ]
+              </li>
+            </ul>
+          </div>
+
+          <div className="flex-1">ok</div>
+        </div>
+      </section>
+
+      <section className="section-white">
+        <div className="section-container flex flex-col md:flex-row">
+          <div className="flex-1">ok</div>
+
+          <div className="flex-1">
+            <h2>Everywhere</h2>
+            <ul>
+              <li>
+                Contact Members of Congress to demand an end to the criminal
+                prosecution of migrants and an end to fast-track Streamline
+                courts.
+              </li>
+
+              <li>
+                Insist to local elected officials that local police and jails do
+                not cooperate with ICE when immigrants are apprehended by local
+                law enforcement.
+              </li>
+
+              <li>
+                Work with others to elect local and national representatives who
+                will work to create real immigration reform.
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 

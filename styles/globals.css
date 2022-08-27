@@ -23,7 +23,7 @@
     @apply list-disc list-outside text-gray-600 leading-8 font-light;
   }
   a {
-    @apply text-blue-400;
+    @apply text-blue-400 break-words;
   }
   nav a {
     @apply text-gray-500 font-semibold text-sm;
@@ -31,9 +31,13 @@
 }
 
 .section-gray {
-  @apply bg-gray-100;
+  @apply bg-gray-100 py-12 md:py-24;
 }
 
 .section-white {
-  @apply bg-white;
+  @apply bg-white py-12 md:py-24;
+}
+
+.section-container {
+  @apply container mx-auto px-10;
 }

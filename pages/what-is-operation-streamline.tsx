@@ -17,12 +17,14 @@ const WhatIsOperationStreamline: NextPage = () => {
 
       <Jumbotron
         title="What is Operation Streamline?"
-        backgroundImage="/images/home-jumbotron.jpg"
+        backgroundImage="/images/what-jumbotron.jpg"
       />
 
       <section className="bg-white px-4 py-24">
-        <div className="container mx-auto flex">
-          <div className="w-1/2"></div>
+        <div className="container mx-auto flex gap-10">
+          <div className="w-1/2">
+            <img src="/images/what-1.jpg" />
+          </div>
           <div className="w-1/2">
             <h3>
               Operation Streamline is an initiative of the Department of
@@ -83,6 +85,65 @@ const WhatIsOperationStreamline: NextPage = () => {
             constitutional rights, plead guilty to entering at a place other
             than a port of entry, and are sentenced.
           </p>
+        </div>
+      </section>
+
+      <section className="section-gray px-4 py-24">
+        <div className="container mx-auto flex gap-10">
+          <div className="w-1/2">
+            <h2>Pleas and Sentences</h2>
+            <img src="/images/what-2.jpg" />
+          </div>
+          <div className="w-1/2">
+            <p>
+              Illegal entry. Most first-time border crossers who are charged
+              with illegal entry plead guilty and get a sentence of time served,
+              i.e., the time that they have been in Border Patrol detention
+              before going to court. They are deported with a criminal
+              conviction on their record. Illegal Re-entry. Those charged with
+              illegal re-entry are offered a plea bargain. If they agree to
+              plead guilty to the lesser violation of illegal entry, the felony
+              charge of illegal re-entry will be dropped. The terms of the plea
+              bargain include a sentence of 30 – 180 days in an immigration
+              detention center. After serving the sentence, immigrants will be
+              deported to their home country with a criminal conviction on their
+              record.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section-white">
+        <div className="container mx-auto flex gap-10">
+          <div className="w-3/4">
+            <p>
+              When an individual is prosecuted as a criminal, the court must
+              provide a defense attorney, and this applies to immigrants.
+              Streamline defendants are represented by public defenders and
+              court-appointed contract lawyers who may represent dozens of
+              clients at a time, meeting with each one for only a few minutes
+              before their court appearance.
+            </p>
+          </div>
+          <div className="w-1/4">
+            <h2>Do Streamline defendants have lawyers?</h2>
+          </div>
+        </div>
+      </section>
+
+      <section className="section-gray">
+        <div className="container mx-auto flex gap-10">
+          <div className="w-3/4">
+            <h2>Are Asylum Seekers Prosecuted in Streamline?</h2>
+          </div>
+          <div className="w-1/4">
+            <p>
+              Yes. Immigrants who are fleeting violence and enter the U.S.
+              without authorization are treated as lawbreakers and prosecuted
+              for illegal entry or illegal re-entry.[Readmore– link to this
+              website’s page on Asylum]
+            </p>
+          </div>
         </div>
       </section>
 

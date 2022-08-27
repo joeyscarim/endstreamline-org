@@ -25,8 +25,9 @@ const Home: NextPage = () => {
         showButtons
       />
 
-      <main className="container mx-auto">
-        {/* section: our mission */}
+      {/* <main className="container mx-auto"> */}
+      {/* section: our mission */}
+      <section className="section-white p-5 py-12">
         <div className="my-24 flex flex-col items-center">
           <h2>Our Mission</h2>
 
@@ -42,10 +43,12 @@ const Home: NextPage = () => {
             </ul>
           </div>
         </div>
+      </section>
+      {/* first image is inline, and the others are backgrounds, so they resize to fit based on it */}
 
-        {/* first image is inline, and the others are backgrounds, so they resize to fit based on it */}
+      {/* section: image gallery */}
 
-        {/* section: image gallery */}
+      <section className="section-white p-5 py-12">
         <div className="grid grid-cols-4 grid-rows-2 gap-4 ">
           <div className="col-span-2 row-span-2 ">
             <img
@@ -66,13 +69,15 @@ const Home: NextPage = () => {
             style={{ backgroundImage: "url('/images/home-gallery-4.jpg')" }}
           />
         </div>
+      </section>
 
-        <div className="flex my-24 gap-16">
-          <div className="flex-1 pl-24">
+      <section className="section-white p-5 py-12">
+        <div className="flex gap-16 max-w-5xl mx-auto flex-col md:flex-row">
+          <div className="flex-1 ">
             <img src="/images/home-bottom.jpg" />
           </div>
 
-          <div className="flex-1 pr-24">
+          <div className="flex-1">
             <h2>We call for...</h2>
             <h3>
               …principled immigration reform that addresses the root causes of
@@ -84,20 +89,7 @@ const Home: NextPage = () => {
             {/* We call <for className=""></for> */}
           </div>
         </div>
-
-        {/* <div className="flex gap-4">
-          <div className="w-1/2">
-            <img src="/images/home-gallery-1.jpg" />
-          </div>
-          <div className="w-1/2 flex flex-col gap-4">
-            <img src="/images/home-gallery-2.jpg" />
-            <div className="flex gap-4">
-              <img src="/images/home-gallery-3.jpg" className="w-1/2" />
-              <img src="/images/home-gallery-4.jpg" className="w-1/2" />
-            </div>
-          </div>
-        </div> */}
-      </main>
+      </section>
 
       <Footer />
     </div>

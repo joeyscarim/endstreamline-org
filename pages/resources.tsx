@@ -41,13 +41,21 @@ const WhatIsOperationStreamline: NextPage = () => {
           <ul>
             <li>
               Coalición Derechos Humanos{' '}
-              <a href="https://derechoshumanosaz.net/" target="_blank">
+              <a
+                href="https://derechoshumanosaz.net/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 https://derechoshumanosaz.net/
               </a>
             </li>
             <li>
               No More Deaths{' '}
-              <a href="http://forms.nomoredeaths.org/en/" target="_blank">
+              <a
+                href="http://forms.nomoredeaths.org/en/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 http://forms.nomoredeaths.org/en/
               </a>
             </li>
@@ -56,19 +64,24 @@ const WhatIsOperationStreamline: NextPage = () => {
               <a
                 href="http://forms.nomoredeaths.org/about-no-more-deaths/keep-tucson-together/"
                 target="_blank"
+                rel="noreferrer"
               >
                 http://forms.nomoredeaths.org/about-no-more-deaths/keep-tucson-together/
               </a>
             </li>
             <li>
               Florence Immigrant and Refugee Rights Project{' '}
-              <a href="https://firrp.org/" target="_blank">
+              <a href="https://firrp.org/" target="_blank" rel="noreferrer">
                 https://firrp.org/
               </a>
             </li>
             <li>
               Kino Border Initiative{' '}
-              <a href="https://www.kinoborderinitiative.org/" target="_blank">
+              <a
+                href="https://www.kinoborderinitiative.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 https://www.kinoborderinitiative.org/
               </a>
             </li>
@@ -78,31 +91,43 @@ const WhatIsOperationStreamline: NextPage = () => {
           <ul>
             <li>
               Mijente{' '}
-              <a href="https://mijente.net/" target="_blank">
+              <a href="https://mijente.net/" target="_blank" rel="noreferrer">
                 https://mijente.net/
               </a>
             </li>
             <li>
               Raices{' '}
-              <a href="https://www.raicestexas.org/" target="_blank">
+              <a
+                href="https://www.raicestexas.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 https://www.raicestexas.org/
               </a>
             </li>
             <li>
               Grassroots Leadership{' '}
-              <a href="https://grassrootsleadership.org/" target="_blank">
+              <a
+                href="https://grassrootsleadership.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 https://grassrootsleadership.org/
               </a>
             </li>
             <li>
               American Civil Liberties Union{' '}
-              <a href="https://www.aclu.org/" target="_blank">
+              <a href="https://www.aclu.org/" target="_blank" rel="noreferrer">
                 https://www.aclu.org/
               </a>
             </li>
             <li>
               American Immigration Council{' '}
-              <a href="https://americanimmigrationcouncil.org/" target="_blank">
+              <a
+                href="https://americanimmigrationcouncil.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 https://americanimmigrationcouncil.org/
               </a>
             </li>
@@ -121,6 +146,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               <a
                 href="https://grassrootsleadership.org/reports/indefensible-decade-mass-incarceration-migrants-prosecuted-crossing-border"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://grassrootsleadership.org/reports/indefensible-decade-mass-incarceration-migrants-prosecuted-crossing-border
               </a>
@@ -130,6 +156,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               <a
                 href="https://www.oig.dhs.gov/sites/default/files/assets/Mgmt/2015/OIG_15-95_May15.pdf"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://www.oig.dhs.gov/sites/default/files/assets/Mgmt/2015/OIG_15-95_May15.pdf
               </a>
@@ -140,6 +167,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               <a
                 href="https://las.arizona.edu/sites/las.arizona.edu/files/SW%20Journal%20of%20Migration%20and%20Human%20Security%20Article%202015.pdf"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://las.arizona.edu/sites/las.arizona.edu/files/SW%20Journal%20of%20Migration%20and%20Human%20Security%20Article%202015.pdf
               </a>
@@ -149,6 +177,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               <a
                 href="https://americanimmigrationcouncil.org/research/asylum-united-states"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://americanimmigrationcouncil.org/research/asylum-united-states
               </a>
@@ -159,6 +188,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               <a
                 href="https://www.hopeborder.org/sealing-the-border"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://www.hopeborder.org/sealing-the-border
               </a>
@@ -169,6 +199,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               <a
                 href="http://www.uscirf.gov/sites/default/files/Barriers%20To%20Protection.pdf"
                 target="_blank"
+                rel="noreferrer"
               >
                 http://www.uscirf.gov/sites/default/files/Barriers%20To%20Protection.pdf
               </a>

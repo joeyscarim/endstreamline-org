@@ -127,6 +127,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               <a
                 href="https://grassrootsleadership.org/reports/indefensible-decade-mass-incarceration-migrants-prosecuted-crossing-border"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://grassrootsleadership.org/reports/indefensible-decade-mass-incarceration-migrants-prosecuted-crossing-border
               </a>
@@ -136,6 +137,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               <a
                 href="https://www.oig.dhs.gov/sites/default/files/assets/Mgmt/2015/OIG_15-95_May15.pdf"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://www.oig.dhs.gov/sites/default/files/assets/Mgmt/2015/OIG_15-95_May15.pdf
               </a>
@@ -146,6 +148,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               <a
                 href="https://las.arizona.edu/sites/las.arizona.edu/files/SW%20Journal%20of%20Migration%20and%20Human%20Security%20Article%202015.pdf"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://las.arizona.edu/sites/las.arizona.edu/files/SW%20Journal%20of%20Migration%20and%20Human%20Security%20Article%202015.pdf
               </a>
@@ -155,6 +158,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               <a
                 href="https://americanimmigrationcouncil.org/research/asylum-united-states"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://americanimmigrationcouncil.org/research/asylum-united-states
               </a>
@@ -165,6 +169,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               <a
                 href="https://www.hopeborder.org/sealing-the-border"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://www.hopeborder.org/sealing-the-border
               </a>
@@ -175,6 +180,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               <a
                 href="http://www.uscirf.gov/sites/default/files/Barriers%20To%20Protection.pdf"
                 target="_blank"
+                rel="noreferrer"
               >
                 http://www.uscirf.gov/sites/default/files/Barriers%20To%20Protection.pdf
               </a>

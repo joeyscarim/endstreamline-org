@@ -19,6 +19,9 @@
   ul {
     @apply mb-5 mt-1 ml-5;
   }
+  ol {
+    @apply mb-5 mt-1 ml-5;
+  }
   li {
     @apply list-disc list-outside text-gray-600 leading-8 font-light;
   }

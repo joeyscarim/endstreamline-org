@@ -49,23 +49,23 @@ const Home: NextPage = () => {
       {/* section: image gallery */}
 
       <section className="section-white p-5 py-12 pt-0 md:0">
-        <div className="grid grid-cols-4 grid-rows-2 gap-4 ">
-          <div className="col-span-2 row-span-2 ">
+        <div className="grid grid-cols-4 grid-rows-4 md:grid-rows-2 gap-4 ">
+          <div className="col-span-4 md:col-span-2 row-span-2 md:row-span-2 ">
             <img
               src="/images/home-gallery-1.jpg"
               className="object-fit cover"
             />
           </div>
           <div
-            className="col-span-2 row-span-1  bg-cover bg-center"
+            className="col-span-4 md:col-span-2 row-span-1  bg-cover bg-center"
             style={{ backgroundImage: "url('/images/home-gallery-2.jpg')" }}
           />
           <div
-            className="col-span-1 row-span-1  bg-cover bg-center"
+            className="col-span-2 md:col-span-1 row-span-1  bg-cover bg-center"
             style={{ backgroundImage: "url('/images/home-gallery-3.jpg')" }}
           />
           <div
-            className="col-span-1 row-span-1  bg-cover bg-center"
+            className="col-span-2 md:col-span-1 row-span-1  bg-cover bg-center"
             style={{ backgroundImage: "url('/images/home-gallery-4.jpg')" }}
           />
         </div>

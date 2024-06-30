@@ -1,10 +1,10 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
+import type { NextPage } from "next";
+import Head from "next/head";
 
 // components
-import { Footer } from '../components/Footer';
-import { Header } from '../components/Header';
-import { Jumbotron } from '../components/Jumbotron';
+import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
+import { Jumbotron } from "../components/Jumbotron";
 
 const WhatIsOperationStreamline: NextPage = () => {
   return (
@@ -26,7 +26,7 @@ const WhatIsOperationStreamline: NextPage = () => {
           <h2>Request a presentation</h2>
           <p>
             End Streamline members are available for presentations to groups if
-            scheduling permits. Please contact us at{' '}
+            scheduling permits. Please contact us at{" "}
             <a className="link" href="mailto:endstreamline@gmail.com">
               endstreamline@gmail.com
             </a>
@@ -40,7 +40,7 @@ const WhatIsOperationStreamline: NextPage = () => {
           <div className="font-bold italic">Southern Arizona</div>
           <ul>
             <li>
-              Coalición Derechos Humanos{' '}
+              Coalición Derechos Humanos{" "}
               <a
                 href="https://derechoshumanosaz.net/"
                 target="_blank"
@@ -50,7 +50,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               </a>
             </li>
             <li>
-              No More Deaths{' '}
+              No More Deaths{" "}
               <a
                 href="http://forms.nomoredeaths.org/en/"
                 target="_blank"
@@ -60,7 +60,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               </a>
             </li>
             <li>
-              Keep Tucson Together{' '}
+              Keep Tucson Together{" "}
               <a
                 href="http://forms.nomoredeaths.org/about-no-more-deaths/keep-tucson-together/"
                 target="_blank"
@@ -70,13 +70,13 @@ const WhatIsOperationStreamline: NextPage = () => {
               </a>
             </li>
             <li>
-              Florence Immigrant and Refugee Rights Project{' '}
+              Florence Immigrant and Refugee Rights Project{" "}
               <a href="https://firrp.org/" target="_blank" rel="noreferrer">
                 https://firrp.org/
               </a>
             </li>
             <li>
-              Kino Border Initiative{' '}
+              Kino Border Initiative{" "}
               <a
                 href="https://www.kinoborderinitiative.org/"
                 target="_blank"
@@ -90,13 +90,13 @@ const WhatIsOperationStreamline: NextPage = () => {
 
           <ul>
             <li>
-              Mijente{' '}
+              Mijente{" "}
               <a href="https://mijente.net/" target="_blank" rel="noreferrer">
                 https://mijente.net/
               </a>
             </li>
             <li>
-              Raices{' '}
+              Raices{" "}
               <a
                 href="https://www.raicestexas.org/"
                 target="_blank"
@@ -106,7 +106,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               </a>
             </li>
             <li>
-              Grassroots Leadership{' '}
+              Grassroots Leadership{" "}
               <a
                 href="https://grassrootsleadership.org/"
                 target="_blank"
@@ -116,13 +116,13 @@ const WhatIsOperationStreamline: NextPage = () => {
               </a>
             </li>
             <li>
-              American Civil Liberties Union{' '}
+              American Civil Liberties Union{" "}
               <a href="https://www.aclu.org/" target="_blank" rel="noreferrer">
                 https://www.aclu.org/
               </a>
             </li>
             <li>
-              American Immigration Council{' '}
+              American Immigration Council{" "}
               <a
                 href="https://americanimmigrationcouncil.org/"
                 target="_blank"
@@ -142,7 +142,7 @@ const WhatIsOperationStreamline: NextPage = () => {
           <ul>
             <li>
               Indefensible: A Decade of Mass Incarceration of Migrants
-              Prosecuted for Crossing the Border.{' '}
+              Prosecuted for Crossing the Border.{" "}
               <a
                 href="https://grassrootsleadership.org/reports/indefensible-decade-mass-incarceration-migrants-prosecuted-crossing-border"
                 target="_blank"
@@ -152,7 +152,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               </a>
             </li>
             <li>
-              Streamline: Measuring its Effect on Illegal Border Crossing{' '}
+              Streamline: Measuring its Effect on Illegal Border Crossing{" "}
               <a
                 href="https://www.oig.dhs.gov/sites/default/files/assets/Mgmt/2015/OIG_15-95_May15.pdf"
                 target="_blank"
@@ -163,7 +163,7 @@ const WhatIsOperationStreamline: NextPage = () => {
             </li>
             <li>
               In Harm’s Way: Family Separation, Immigration Enforcement Programs
-              and Security on the U.S.-Mexico Border{' '}
+              and Security on the U.S.-Mexico Border{" "}
               <a
                 href="https://las.arizona.edu/sites/las.arizona.edu/files/SW%20Journal%20of%20Migration%20and%20Human%20Security%20Article%202015.pdf"
                 target="_blank"
@@ -173,7 +173,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               </a>
             </li>
             <li>
-              Asylum in the United States{' '}
+              Asylum in the United States{" "}
               <a
                 href="https://americanimmigrationcouncil.org/research/asylum-united-states"
                 target="_blank"
@@ -184,7 +184,7 @@ const WhatIsOperationStreamline: NextPage = () => {
             </li>
             <li>
               Sealing the Border: The Criminalization of Asylum Seekers in the
-              Trump Era{' '}
+              Trump Era{" "}
               <a
                 href="https://www.hopeborder.org/sealing-the-border"
                 target="_blank"
@@ -195,7 +195,7 @@ const WhatIsOperationStreamline: NextPage = () => {
             </li>
             <li>
               Barriers to Protection: The Treatment of Asylum Seekers in
-              Expedited Removal{' '}
+              Expedited Removal{" "}
               <a
                 href="http://www.uscirf.gov/sites/default/files/Barriers%20To%20Protection.pdf"
                 target="_blank"
@@ -204,6 +204,16 @@ const WhatIsOperationStreamline: NextPage = () => {
                 http://www.uscirf.gov/sites/default/files/Barriers%20To%20Protection.pdf
               </a>
             </li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="section-gray">
+        <div className="section-container">
+          <h2>Resources for attorneys</h2>
+          <ul>
+            <li>Petition for credible fear interview</li>
+            <li>Sample email to ICE</li>
           </ul>
         </div>
       </section>

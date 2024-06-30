@@ -1,15 +1,15 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
-import Image from 'next/image';
-import { Footer } from '../components/Footer';
-import { Header } from '../components/Header';
-import { Jumbotron } from '../components/Jumbotron';
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
+import { Jumbotron } from "../components/Jumbotron";
 
 const WhatIsOperationStreamline: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>What You Can Do | End Streamline</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -39,7 +39,9 @@ const WhatIsOperationStreamline: NextPage = () => {
             Print the list and bring it to court – it will make it easier to
             follow the proceedings.
           </p>
-          <p>Volunteer as an End Streamline court observer</p>
+          <p className="underline">
+            Volunteer as an End Streamline court observer
+          </p>
           <p>
             End Streamline documents the prosecutions of asylum seekers in the
             Tucson Streamline court proceedings. Contact us at
@@ -74,13 +76,17 @@ const WhatIsOperationStreamline: NextPage = () => {
             </ul>
           </div>
 
-          <div className="flex-1">ok</div>
+          <div className="flex-1">
+            <img src="/images/you-1.jpg" />
+          </div>
         </div>
       </section>
 
       <section className="section-white">
-        <div className="section-container flex flex-col md:flex-row">
-          <div className="flex-1">ok</div>
+        <div className="section-container flex flex-col gap-5 md:flex-row">
+          <div className="flex-1">
+            <img src="/images/you-2.jpg" />
+          </div>
 
           <div className="flex-1">
             <h2>Everywhere</h2>

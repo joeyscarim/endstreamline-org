@@ -1,15 +1,15 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
-import Image from 'next/image';
-import { Footer } from '../components/Footer';
-import { Header } from '../components/Header';
-import { Jumbotron } from '../components/Jumbotron';
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
+import { Jumbotron } from "../components/Jumbotron";
 
 const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>End Streamline | Tucson, AZ</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -27,12 +27,12 @@ const Home: NextPage = () => {
 
       {/* <main className="container mx-auto"> */}
       {/* section: our mission */}
-      <section className="section-white p-5 py-12">
-        <div className="my-24 flex flex-col items-center">
+      <section className="section-white p-5 py-12 md:pb-0">
+        <div className="my-0 flex flex-col items-center">
           <h2>Our Mission</h2>
 
-          <div className="mt-8">
-            We stand for ending:
+          <div className="mt-8 text-lg">
+            <span className="font-semibold">We stand for ending:</span>
             <ul>
               <li>Criminalization of migration</li>
               <li>Prosecutions for illegal entry and re-entry</li>
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
 
       {/* section: image gallery */}
 
-      <section className="section-white p-5 py-12">
+      <section className="section-white p-5 py-12 pt-0 md:0">
         <div className="grid grid-cols-4 grid-rows-2 gap-4 ">
           <div className="col-span-2 row-span-2 ">
             <img
@@ -71,7 +71,7 @@ const Home: NextPage = () => {
         </div>
       </section>
 
-      <section className="section-white p-5 py-12">
+      <section className="section-white p-5 py-12 md:pt-0">
         <div className="flex gap-16 max-w-5xl mx-auto flex-col md:flex-row">
           <div className="flex-1 ">
             <img src="/images/home-bottom.jpg" />

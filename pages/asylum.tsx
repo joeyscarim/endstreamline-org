@@ -1,10 +1,10 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
+import type { NextPage } from "next";
+import Head from "next/head";
 
 // components
-import { Footer } from '../components/Footer';
-import { Header } from '../components/Header';
-import { Jumbotron } from '../components/Jumbotron';
+import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
+import { Jumbotron } from "../components/Jumbotron";
 
 const WhatIsOperationStreamline: NextPage = () => {
   return (
@@ -132,7 +132,7 @@ const WhatIsOperationStreamline: NextPage = () => {
             is evaluated fairly. The process is complex but includes these
             steps:
           </p>
-          <ol>
+          <ol className="list-decimal">
             <li>
               An initial screening known as a Credible Fear or Reasonable Fear
               interview conducted by an immigration official. If individuals
@@ -204,7 +204,7 @@ const WhatIsOperationStreamline: NextPage = () => {
         <div className="section-container">
           {/* <div className="w-full md:w-3/4"> */}
           <h2>
-            {' '}
+            {" "}
             What Happens to Asylum Seekers Who are Prosecuted in Streamline?
           </h2>
           <p>Border Patrol</p>
@@ -258,6 +258,36 @@ const WhatIsOperationStreamline: NextPage = () => {
             particular social group.
           </p>
           {/* </div> */}
+        </div>
+      </section>
+
+      <section className="section-gray">
+        <div className="section-container flex flex-col md:flex-row gap-10">
+          <div className="w-full md:w-1/4">
+            <h2>How Many Immigrants Who Apply for Asylum are Successful?</h2>
+          </div>
+
+          <div className="w-full md:w-3/4">
+            <ul>
+              <li>
+                Success rates for passing credible or reasonable fear interviews
+                vary by region and by the immigration official who does the
+                interview.{" "}
+              </li>
+              <li>
+                Those who pass their screening interview will wait one-to-two
+                years before their case is heard by an immigration judge. During
+                this time, asylum-seekers and their family members may be
+                detained in an immigration detention center.{" "}
+              </li>
+              <li>
+                Success rates vary by country of origin and the region of the
+                U.S. where the case is heard. For example, in 2016, 30% of
+                Chinese applicants were successful, compared with 10% from
+                Guatemala and 7% from Honduras.
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 

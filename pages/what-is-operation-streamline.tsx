@@ -1,15 +1,15 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
-import Image from 'next/image';
-import { Footer } from '../components/Footer';
-import { Header } from '../components/Header';
-import { Jumbotron } from '../components/Jumbotron';
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
+import { Jumbotron } from "../components/Jumbotron";
 
 const WhatIsOperationStreamline: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>What is Operation Streamline? | End Streamline</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -159,7 +159,7 @@ const WhatIsOperationStreamline: NextPage = () => {
             <li>
               The Office of Inspector General for the Department of Homeland
               Security faulted the DHS Office of Customs and Border Protection
-              (CBP) in 2015 for not tracking the full costs of Streamline.{' '}
+              (CBP) in 2015 for not tracking the full costs of Streamline.{" "}
               <a href="https://www.oig.dhs.gov/sites/default/files/assets/Mgmt/2015/OIG_15-95_May15.pdf">
                 https://www.oig.dhs.gov/sites/default/files/assets/Mgmt/2015/OIG_15-95_May15.pdf
               </a>
@@ -167,7 +167,7 @@ const WhatIsOperationStreamline: NextPage = () => {
             <li>
               The U.S. Government Accountability Office also criticized CBP for
               not accounting for all the costs of Streamline implementation,
-              focusing only on CBP’s own costs.{' '}
+              focusing only on CBP’s own costs.{" "}
               <a href="https://www.gao.gov/assets/690/682074.pdf">
                 https://www.gao.gov/assets/690/682074.pdf
               </a>
@@ -251,7 +251,6 @@ const WhatIsOperationStreamline: NextPage = () => {
       <section className="section-white">
         <div className="container mx-auto">
           <h2>Who Profits?</h2>
-          <p>Total costs are unknown.</p>
           <p>
             Many Streamlined immigrants serve time in private prisons run for
             profit by well-connected corporations such as Core Civic and GEO
@@ -259,6 +258,7 @@ const WhatIsOperationStreamline: NextPage = () => {
             to federal election campaigns with the expectation of receiving
             contracts for housing people criminalized by the federal government.
           </p>
+
           <ul>
             <li>
               According to ICE, in 2016 three quarters of immigration prisoners
@@ -288,7 +288,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               claim that Streamline“works.”The Office of Inspector General for
               the Department of Homeland Security studied the Border Patrol
               metrics for evaluating a deterrent effect and in 2015 found them
-              to be insufficient.{' '}
+              to be insufficient.{" "}
               <a href="https://www.oig.dhs.gov/sites/default/files/assets/Mgmt/2015/OIG_15-95_May15.pdf">
                 https://www.oig.dhs.gov/sites/default/files/assets/Mgmt/2015/OIG_15-95_May15.pdf
               </a>
@@ -303,7 +303,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               be their permanent home, and by whether they intended to cross
               into the U.S. again immediately(withina week) or at some time in
               the future. Of those who considered the U.S. to be their home, 70%
-              intended to cross again at some point in the future.{' '}
+              intended to cross again at some point in the future.{" "}
               <a href="https://las.arizona.edu/sites/las.arizona.edu/files/SW%20Journal%20of%20Migration%20and%20Human%20Security%20Article%202015.pdf">
                 https://las.arizona.edu/sites/las.arizona.edu/files/SW%20Journal%20of%20Migration%20and%20Human%20Security%20Article%202015.pdf
               </a>
@@ -315,7 +315,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               fluctuations in border crossings over time. They used statistical
               modeling to look at monthly data in each border sector and found
               no evidence that the introduction of Streamline had a deterrent
-              effect in any of the border sectors.{' '}
+              effect in any of the border sectors.{" "}
               <a href="https://www.vera.org/publications/operation-streamline">
                 https://www.vera.org/publications/operation-streamline
               </a>

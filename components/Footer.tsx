@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -13,17 +13,17 @@ export const Footer = () => {
           participants.
         </h3>
         <h3>
-          Contact us at{' '}
+          Contact us at{" "}
           <a className="link" href="mailto:endstreamline@gmail.com">
             endstreamline@gmail.com
-          </a>{' '}
+          </a>{" "}
           for meeting dates and location.
         </h3>
       </div>
 
       <div className="bg-gray-900 text-white ">
         <div className="container mx-auto px-4 py-4 text-slate-300 text-sm">
-          End Streamline Coalition. 2022.
+          End Streamline Coalition. 2024.
         </div>
       </div>
     </footer>

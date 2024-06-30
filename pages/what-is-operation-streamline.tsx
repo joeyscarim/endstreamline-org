@@ -21,11 +21,11 @@ const WhatIsOperationStreamline: NextPage = () => {
       />
 
       <section className="bg-white px-4 py-24">
-        <div className="container mx-auto flex gap-10">
-          <div className="w-1/2">
+        <div className="container mx-auto flex gap-10 flex-col md:flex-row">
+          <div className="md:w-1/2">
             <img src="/images/what-1.jpg" />
           </div>
-          <div className="w-1/2">
+          <div className="md:w-1/2">
             <h3>
               Operation Streamline is an initiative of the Department of
               Homeland Security and the Department of Justice launched in 2005
@@ -42,7 +42,7 @@ const WhatIsOperationStreamline: NextPage = () => {
       </section>
 
       <section className="bg-gray-100 px-4 py-24">
-        <div className="container mx-auto">
+        <div className="container mx-auto flex-col md:flex-row">
           <h2>What happened prior to Streamline?</h2>
           <p>
             Being in the United States without proper documentation is a
@@ -57,7 +57,7 @@ const WhatIsOperationStreamline: NextPage = () => {
 
       {/* make applys for these sections? section-white section-gray? */}
       <section className="bg-white px-4 py-24">
-        <div className="container mx-auto">
+        <div className="container mx-auto flex-col md:flex-row">
           <h2>What Happens in Streamline courts?</h2>
           <p>
             Streamline courts are criminal courts. Unlike most federal
@@ -89,12 +89,12 @@ const WhatIsOperationStreamline: NextPage = () => {
       </section>
 
       <section className="section-gray px-4 py-24">
-        <div className="container mx-auto flex gap-10">
-          <div className="w-1/2">
+        <div className="container mx-auto flex gap-10 flex-col md:flex-row">
+          <div className="md:w-1/2">
             <h2>Pleas and Sentences</h2>
             <img src="/images/what-2.jpg" />
           </div>
-          <div className="w-1/2">
+          <div className="md:w-1/2">
             <p>
               Illegal entry. Most first-time border crossers who are charged
               with illegal entry plead guilty and get a sentence of time served,
@@ -114,8 +114,8 @@ const WhatIsOperationStreamline: NextPage = () => {
       </section>
 
       <section className="section-white">
-        <div className="container mx-auto flex gap-10">
-          <div className="w-3/4">
+        <div className="container mx-auto flex  gap-10 flex-col-reverse md:flex-row p-8">
+          <div className="w-full md:w-3/4">
             <p>
               When an individual is prosecuted as a criminal, the court must
               provide a defense attorney, and this applies to immigrants.
@@ -125,18 +125,18 @@ const WhatIsOperationStreamline: NextPage = () => {
               before their court appearance.
             </p>
           </div>
-          <div className="w-1/4">
+          <div className="w-full md:w-1/4 ">
             <h2>Do Streamline defendants have lawyers?</h2>
           </div>
         </div>
       </section>
 
       <section className="section-gray">
-        <div className="container mx-auto flex gap-10">
-          <div className="w-3/4">
+        <div className="container mx-auto flex gap-10 flex-col md:flex-row p-8">
+          <div className="md:w-3/4">
             <h2>Are Asylum Seekers Prosecuted in Streamline?</h2>
           </div>
-          <div className="w-1/4">
+          <div className="md:w-1/4">
             <p>
               Yes. Immigrants who are fleeting violence and enter the U.S.
               without authorization are treated as lawbreakers and prosecuted
@@ -148,7 +148,7 @@ const WhatIsOperationStreamline: NextPage = () => {
       </section>
 
       <section className="section-white">
-        <div className="container mx-auto">
+        <div className="container mx-auto flex-col md:flex-row p-8">
           <h2>How Much Does This Cost the U.S Taxpayers?</h2>
           <p>Total costs are unknown.</p>
           <p>
@@ -200,12 +200,12 @@ const WhatIsOperationStreamline: NextPage = () => {
       </section>
 
       <section className="section-gray">
-        <div className="container mx-auto flex gap-10">
-          <div className="w-1/3">
+        <div className="container mx-auto flex gap-10 flex-col md:flex-row p-8">
+          <div className="md:w-1/3">
             <h2>Are There Other Costs?</h2>
             <img src="/images/what-3.jpg" />
           </div>
-          <div className="w-2/3">
+          <div className="md:w-2/3">
             <p> Criminal conviction</p>
             <p>
               Acriminal conviction is a bar to future legal immigration for at
@@ -249,7 +249,7 @@ const WhatIsOperationStreamline: NextPage = () => {
       </section>
 
       <section className="section-white">
-        <div className="container mx-auto">
+        <div className="container mx-auto flex-col md:flex-row p-8">
           <h2>Who Profits?</h2>
           <p>
             Many Streamlined immigrants serve time in private prisons run for
@@ -275,12 +275,12 @@ const WhatIsOperationStreamline: NextPage = () => {
       </section>
 
       <section className="section-gray">
-        <div className="container mx-auto flex gap-10">
-          <div className="w-1/3">
+        <div className="container mx-auto flex gap-10 flex-col md:flex-row p-8">
+          <div className="md:w-1/3">
             <h2>Is Immigrant Criminal Prosecution an Effective Deterrent?</h2>
             <img src="/images/what-4.jpg" />
           </div>
-          <div className="w-2/3">
+          <div className="md:w-2/3">
             <p>
               No large-scale studies have proved that criminal prosecution
               deters unauthorized immigrants. Yet the Justice Department,

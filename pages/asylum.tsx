@@ -55,7 +55,7 @@ const WhatIsOperationStreamline: NextPage = () => {
               Protocol and thus is bound by its provisions.
             </p>
             <p className="underline">U.S. Law</p>
-            <p>
+            <p className="break-words">
               The U.S. incorporated the U.N. asylum definitions into its own law
               in the Refugee Act of 1980. U.S. law says that any immigrant who
               is fleeing persecution and enters the U.S. may apply for asylum,
@@ -158,14 +158,14 @@ const WhatIsOperationStreamline: NextPage = () => {
       </section>
 
       <section className="section-gray">
-        <div className="container mx-auto flex gap-10">
-          <div className="w-1/3">
+        <div className="container mx-auto flex gap-10 flex-col md:flex-row p-8">
+          <div className="md:w-1/3">
             <h2>
               What Really Happens to Immigrants Seeking Asylum in the U.S.
             </h2>
             <img src="/images/asylum-3.jpg" />
           </div>
-          <div className="w-2/3">
+          <div className="md:w-2/3 break-words">
             <p>
               Customs and Border Protection officials at ports of entry
               sometimes turn away asylum seekers, falsely claiming that the U.S.
@@ -208,7 +208,7 @@ const WhatIsOperationStreamline: NextPage = () => {
             What Happens to Asylum Seekers Who are Prosecuted in Streamline?
           </h2>
           <p>Border Patrol</p>
-          <p>
+          <p className="break-words">
             When Border Patrol agents apprehend migrants, they are supposed to
             ask whether the border-crosser entered the U.S. to seek asylum, but
             this happens inconsistently. Immigrant rights groups have documented
